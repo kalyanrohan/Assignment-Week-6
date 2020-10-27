@@ -1,6 +1,6 @@
 from collections import defaultdict
 dict1=defaultdict(int)
-f=open('sampletext2.txt','r')
+f=open('sampletext2.txt','r',encoding='utf-8')
 txt=f.read().split()
 new_txt=[]
 for word in txt:
@@ -18,6 +18,7 @@ for word,count in dict1.items():
 print(hapaxes)
 print(len(hapaxes))
 print(len(new_txt))
+f.close()
 
 # 5182
 # 78256
