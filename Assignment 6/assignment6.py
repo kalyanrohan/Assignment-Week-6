@@ -5,6 +5,3 @@ i=1
 for line in txt:
     new_file.write(f'{i}.{line}')
     i+=1
-    
-
-    
