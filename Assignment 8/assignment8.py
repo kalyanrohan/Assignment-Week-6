@@ -10,4 +10,4 @@ for names in txt:
         pokemon_dict[names[0]].append(names)
 
 
-print(pokemon_dict)
+
