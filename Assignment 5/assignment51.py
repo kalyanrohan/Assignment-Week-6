@@ -20,3 +20,4 @@ def hapax(txt):
     return hapaxes
 
 print(hapax(new_txt))
+ f.close()
